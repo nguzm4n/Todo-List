@@ -1,8 +1,14 @@
 import React from 'react'
 
 const barra = () => {
+
+  const [ tarea, setTarea] = useState("")
+
   return (
-    <div></div>
+    <div className='barra'>
+        <input type='text' onChange={e => setTarea(e.target.value)} value={tarea} />
+        <button className='btn boton'/>
+    </div>
   )
 }
 
