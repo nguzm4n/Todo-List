@@ -1,5 +1,5 @@
-import { React, useState } from 'react'
-import './App.css'
+import React from 'react'
+import './componentes/barra.jsx'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='container contenedor-tareas'>
         <div className='container-row'>
-
+          <Barra />
         </div>
       </div>
     </>
